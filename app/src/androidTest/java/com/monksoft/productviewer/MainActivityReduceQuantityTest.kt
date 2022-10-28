@@ -28,7 +28,7 @@ class MainActivityReduceQuantityTest {
     @Test
     fun mainActivityReduceQuantityTest() {
         val textView = onView(
-            allOf( a
+            allOf(
                 withId(R.id.tvQuantity), withText("Disponibles: 343"),
                 withParent(withParent(withId(android.R.id.content))),
                 isDisplayed()
